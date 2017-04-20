@@ -1,0 +1,2 @@
+<%= @callback %>('<%= @tag.errors.empty? ? raw({message: "予約完了 #{@tag.jan}"}.to_json) : raw({"message": "#{@tag.errors.messages}"}.to_json) %>')
+<%#= escape_javascript(@tag.errors.messages) %>

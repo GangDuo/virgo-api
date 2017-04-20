@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Owner:</strong>
+  <%= @tag.owner %>
+</p>
+
+<p>
+  <strong>Jan:</strong>
+  <%= @tag.jan %>
+</p>
+
+<p>
+  <strong>Visible:</strong>
+  <%= @tag.visible %>
+</p>
+
+<%= link_to 'Edit', edit_tag_path(@tag) %> |
+<%= link_to 'Back', tags_path %>

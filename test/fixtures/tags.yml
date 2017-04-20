@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  owner: MyString
+  jan: MyString
+  visible: false
+
+two:
+  owner: MyString
+  jan: MyString
+  visible: false
